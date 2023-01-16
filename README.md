@@ -1,4 +1,4 @@
-# onepassonly
+# onepassonly v0.1
 
 **OnePassOnly** app is a solution for securely generating and managing your passwords. 
 With **OnePassOnly**, you can easily create unique and complex passwords for all of your online accounts, without the hassle of remembering them all.
