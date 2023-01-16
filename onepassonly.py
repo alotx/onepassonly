@@ -17,11 +17,11 @@ class OnePassOnly:
             else:
                 raise ValueError
 
-    def genpass(self, login, secret, length=16):
+    def genpass(self, known_key, secret, length=16):
         """
          Generates a password based on the account and a common secret
-         :param login: The site's account name (e.g. johndoe@none.org)
-         :param secret: Unique password to use
+         :param known_key: A known key that identifies what is the password intended for (e.g. johndoe@none.org)
+         :param secret: Unique password to use as Secret Key
          :param length: The length of the resulting password 
          :return: The password to be used.
          """
