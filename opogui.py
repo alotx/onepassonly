@@ -68,7 +68,7 @@ class OPOGui:
         # main_menu.add_cascade(menu=menu_about, label='About')
 
         # Label Frame containing the list of all logins or Known Keys and the add, remove and save buttons
-        knownkey_frame = LabelFrame(mainframe, text='Know Keys:')
+        knownkey_frame = LabelFrame(mainframe, text='Target:')
         knownkey_frame.grid(column=0, row=0, sticky="N S E W")
         knownkey_frame['labelanchor'] = 'nw'
         knownkey_frame['font'] = FONTS['default']
@@ -108,7 +108,7 @@ class OPOGui:
         list_scroll.grid(column=2, row=0, sticky="N S")
         self.items_list.configure(yscrollcommand=list_scroll.set)
 
-        unknownkey_frame = LabelFrame(mainframe, text='Secret Key:')
+        unknownkey_frame = LabelFrame(mainframe, text='Secret:')
         unknownkey_frame.grid(column=0, row=1, sticky="N S E W")
         unknownkey_frame['labelanchor'] = 'nw'
         unknownkey_frame['font'] = FONTS['default']
