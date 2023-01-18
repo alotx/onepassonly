@@ -22,7 +22,7 @@ class OnePassOnly:
          Generates a password based on the account and a common secret
          :param known_key: A known key that identifies what is the password intended for (e.g. johndoe@none.org)
          :param secret_key: Unique password to use as Secret Key
-         :param length: The length of the resulting password 
+         :param length: The password_length of the resulting password
          :return: The password to be used.
          """
         text = known_key + secret_key
