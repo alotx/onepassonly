@@ -18,3 +18,11 @@ import opogui
 app = opogui.OPOGui()
 app.run()
 ```
+### Modules
+Uses [Pillow 9.4.0](https://pypi.org/project/Pillow/) to load the images.
+```commandline
+pip install pillow
+```
+```commandline
+conda install -n myenv pillow
+```
